@@ -1,0 +1,18 @@
+.header{
+  background: teal;
+  color: #fff;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.header__nav-link{
+  &:not(:last-child){
+    margin-right: 30px;
+  }
+  &.active{
+    color: rgb(192, 70, 49);
+  }
+}
